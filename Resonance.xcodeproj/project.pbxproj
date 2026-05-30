@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B6241C2FCA6196007A1AF2 /* SmartSpectra in Frameworks */ = {isa = PBXBuildFile; productRef = B8B6241B2FCA6196007A1AF2 /* SmartSpectra */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8B623FA2FCA6060007A1AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B623E42FCA605E007A1AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B623EB2FCA605E007A1AF2;
+			remoteInfo = Resonance;
+		};
+		B8B624042FCA6060007A1AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B623E42FCA605E007A1AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B623EB2FCA605E007A1AF2;
+			remoteInfo = Resonance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8B623EC2FCA605E007A1AF2 /* Resonance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resonance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B623F92FCA6060007A1AF2 /* ResonanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResonanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B624032FCA6060007A1AF2 /* ResonanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResonanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B8B623EE2FCA605E007A1AF2 /* Resonance */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resonance;
+			sourceTree = "<group>";
+		};
+		B8B623FC2FCA6060007A1AF2 /* ResonanceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResonanceTests;
+			sourceTree = "<group>";
+		};
+		B8B624062FCA6060007A1AF2 /* ResonanceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResonanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B623E92FCA605E007A1AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B6241C2FCA6196007A1AF2 /* SmartSpectra in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B623F62FCA6060007A1AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B624002FCA6060007A1AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B623E32FCA605E007A1AF2 = {
+			isa = PBXGroup;
+			children = (
+				B8B623EE2FCA605E007A1AF2 /* Resonance */,
+				B8B623FC2FCA6060007A1AF2 /* ResonanceTests */,
+				B8B624062FCA6060007A1AF2 /* ResonanceUITests */,
+				B8B624172FCA6112007A1AF2 /* Frameworks */,
+				B8B623ED2FCA605E007A1AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B623ED2FCA605E007A1AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B623EC2FCA605E007A1AF2 /* Resonance.app */,
+				B8B623F92FCA6060007A1AF2 /* ResonanceTests.xctest */,
+				B8B624032FCA6060007A1AF2 /* ResonanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B624172FCA6112007A1AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B623EB2FCA605E007A1AF2 /* Resonance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B6240D2FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "Resonance" */;
+			buildPhases = (
+				B8B623E82FCA605E007A1AF2 /* Sources */,
+				B8B623E92FCA605E007A1AF2 /* Frameworks */,
+				B8B623EA2FCA605E007A1AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B8B623EE2FCA605E007A1AF2 /* Resonance */,
+			);
+			name = Resonance;
+			packageProductDependencies = (
+				B8B6241B2FCA6196007A1AF2 /* SmartSpectra */,
+			);
+			productName = Resonance;
+			productReference = B8B623EC2FCA605E007A1AF2 /* Resonance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B623F82FCA6060007A1AF2 /* ResonanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B624102FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "ResonanceTests" */;
+			buildPhases = (
+				B8B623F52FCA6060007A1AF2 /* Sources */,
+				B8B623F62FCA6060007A1AF2 /* Frameworks */,
+				B8B623F72FCA6060007A1AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B623FB2FCA6060007A1AF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8B623FC2FCA6060007A1AF2 /* ResonanceTests */,
+			);
+			name = ResonanceTests;
+			packageProductDependencies = (
+			);
+			productName = ResonanceTests;
+			productReference = B8B623F92FCA6060007A1AF2 /* ResonanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8B624022FCA6060007A1AF2 /* ResonanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B624132FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "ResonanceUITests" */;
+			buildPhases = (
+				B8B623FF2FCA6060007A1AF2 /* Sources */,
+				B8B624002FCA6060007A1AF2 /* Frameworks */,
+				B8B624012FCA6060007A1AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B624052FCA6060007A1AF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8B624062FCA6060007A1AF2 /* ResonanceUITests */,
+			);
+			name = ResonanceUITests;
+			packageProductDependencies = (
+			);
+			productName = ResonanceUITests;
+			productReference = B8B624032FCA6060007A1AF2 /* ResonanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B623E42FCA605E007A1AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B8B623EB2FCA605E007A1AF2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B8B623F82FCA6060007A1AF2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B8B623EB2FCA605E007A1AF2;
+					};
+					B8B624022FCA6060007A1AF2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B8B623EB2FCA605E007A1AF2;
+					};
+				};
+			};
+			buildConfigurationList = B8B623E72FCA605E007A1AF2 /* Build configuration list for PBXProject "Resonance" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B623E32FCA605E007A1AF2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B8B6241A2FCA6192007A1AF2 /* XCRemoteSwiftPackageReference "SmartSpectra-Swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B8B623ED2FCA605E007A1AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B623EB2FCA605E007A1AF2 /* Resonance */,
+				B8B623F82FCA6060007A1AF2 /* ResonanceTests */,
+				B8B624022FCA6060007A1AF2 /* ResonanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B623EA2FCA605E007A1AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B623F72FCA6060007A1AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B624012FCA6060007A1AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B623E82FCA605E007A1AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B623F52FCA6060007A1AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B623FF2FCA6060007A1AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B623FB2FCA6060007A1AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B623EB2FCA605E007A1AF2 /* Resonance */;
+			targetProxy = B8B623FA2FCA6060007A1AF2 /* PBXContainerItemProxy */;
+		};
+		B8B624052FCA6060007A1AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B623EB2FCA605E007A1AF2 /* Resonance */;
+			targetProxy = B8B624042FCA6060007A1AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B8B6240B2FCA6060007A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8B6240C2FCA6060007A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B6240E2FCA6060007A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resonance needs camera access to read your breathing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.Resonance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8B6240F2FCA6060007A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resonance needs camera access to read your breathing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.Resonance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8B624112FCA6060007A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.ResonanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resonance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Resonance";
+			};
+			name = Debug;
+		};
+		B8B624122FCA6060007A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.ResonanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resonance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Resonance";
+			};
+			name = Release;
+		};
+		B8B624142FCA6060007A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.ResonanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Resonance;
+			};
+			name = Debug;
+		};
+		B8B624152FCA6060007A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBJHCE4VQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sully.ResonanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Resonance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B623E72FCA605E007A1AF2 /* Build configuration list for PBXProject "Resonance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B6240B2FCA6060007A1AF2 /* Debug */,
+				B8B6240C2FCA6060007A1AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B6240D2FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "Resonance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B6240E2FCA6060007A1AF2 /* Debug */,
+				B8B6240F2FCA6060007A1AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B624102FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "ResonanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B624112FCA6060007A1AF2 /* Debug */,
+				B8B624122FCA6060007A1AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B624132FCA6060007A1AF2 /* Build configuration list for PBXNativeTarget "ResonanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B624142FCA6060007A1AF2 /* Debug */,
+				B8B624152FCA6060007A1AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8B6241A2FCA6192007A1AF2 /* XCRemoteSwiftPackageReference "SmartSpectra-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Presage-Security/SmartSpectra-Swift/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8B6241B2FCA6196007A1AF2 /* SmartSpectra */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8B6241A2FCA6192007A1AF2 /* XCRemoteSwiftPackageReference "SmartSpectra-Swift" */;
+			productName = SmartSpectra;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8B623E42FCA605E007A1AF2 /* Project object */;
+}

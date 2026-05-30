@@ -1,0 +1,15 @@
+{
+  "originHash" : "39fb713c76cd0050518cf21296b2685cc381ececff9bbf21d1ee15d26202f9cd",
+  "pins" : [
+    {
+      "identity" : "smartspectra-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Presage-Security/SmartSpectra-Swift/",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cbb4154bf3cd91d0ef6db98d99da8b7ee40def97"
+      }
+    }
+  ],
+  "version" : 3
+}
