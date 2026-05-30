@@ -2,6 +2,10 @@
 
 **A mindful breathing pacer for iOS that uses your camera to verify you're actually breathing.**
 
+## Demo
+
+[![Resonance Demo](https://youtube.com/shorts/0safJ9fdt7w?si=fBtrJnL4-8nsVinG)](https://youtube.com/shorts/0safJ9fdt7w?si=fBtrJnL4-8nsVinG)
+
 ---
 
 ## Inspiration
